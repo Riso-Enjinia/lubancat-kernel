@@ -24,7 +24,7 @@ jobs:
         
         # 2. 生成配置文件（根据鲁班猫官方推荐的 defconfig，这里以 rk3588 为例，具体视板卡而定）
         # 你可以去 arch/arm64/configs/ 目录下查看具体的配置文件名
-        make lubancat2_defconfig 
+        make lubancat_linux_rk356x_defconfig 
         
         # 3. 编译并打包为 deb 或者是直接编译出 Image/dtb
         # 这里以该仓库自带的打包脚本或标准 make 为准，如果是标准内核：
